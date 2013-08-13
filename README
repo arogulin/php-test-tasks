@@ -23,6 +23,7 @@ Solutions for PHP test tasks from http://phpixie.com/blog/test-tasks-for-php-int
             ),
     );
     
+    
     And expect this output:
         
     +------------+-------+---------+---------+
