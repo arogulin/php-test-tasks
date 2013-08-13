@@ -1,0 +1,43 @@
+Solutions for PHP test tasks from http://phpixie.com/blog/test-tasks-for-php-interviews-that-developers-will-enjoy-solving/
+
+1) Print an associative array as an ASCII table. E.g you have this array:
+	
+    array(
+        array(
+            'Name' => 'Trixie',
+            'Color' => 'Green',
+            'Element' => 'Earth',
+            'Likes' => 'Flowers'
+            ),
+        array(
+            'Name' => 'Tinkerbell',
+            'Element' => 'Air',
+            'Likes' => 'Singning',
+            'Color' => 'Blue'
+            ), 
+        array(
+            'Element' => 'Water',
+            'Likes' => 'Dancing',
+            'Name' => 'Blum',
+            'Color' => 'Pink'
+            ),
+    );
+    
+    And expect this output:
+        
+    +------------+-------+---------+---------+
+    |    Name    | Color | Element |  Likes  |
+    +------------+-------+---------+---------+
+    | Trixie     | Green | Earth   | Flowers |
+    | Tinkerbell | Blue  | Air     | Singing |
+    | Blum       | Pink  | Water   | Dancing |
+    +------------+-------+---------+---------+
+    
+    The position of the elements in each subarray may vary but the keys themselves are always the same. 
+    Give extra points if the developer can make Color colum colored depending on the color name 
+    (of course you will have to specify a finite list of colors then) and if he substitues the names of the elemnts with 
+    the ASCII symbols of the elements.
+    
+    Most PHP developers dont get much of a chance to work with ASCII interfaces but they see such tables a lot in MySQL 
+    for example so it might be interesting for them to try this out. Drawing such a table doesnt require any additional 
+    knowledge so it wont be that hard for anyone.
